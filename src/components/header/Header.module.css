@@ -1,0 +1,197 @@
+@font-face {
+	font-family: 'Lato';
+	src: url("../fonts/Lato-Light.ttf");
+}
+@font-face {
+	font-family: 'LatoRegular';
+	src: url("../fonts/Lato-Regular.ttf");
+}
+
+
+.Wrapper {
+	background: #FFFFFF;
+	height: 74px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px 84px 0px 80px;
+	/* border: 3px dashed green; */
+	border-bottom: 0.6px solid rgba(0, 32, 74, 0.1);
+	/* margin-top: 100px; */
+}
+.Container{
+	min-height: 100%;
+	height: 74px;
+	width: 96.6%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1233px;
+	/*border: 3px dashed purple;*/
+	box-sizing: border-box;
+}
+
+.Menu{
+	box-sizing: border-box;
+	height: 100%;
+	width: 641px;
+	display: flex;
+	justify-content: space-around;
+	/*border: 3px dashed orchid;*/
+}
+.Vector{
+	margin-left: 8.66px;
+}
+.Menu > p{
+	color: #00204A;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	height: 100%;
+	margin: 0 0;
+	/* text-align: center; */
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	/*transition: all 0.5s linear 0s;*/
+}
+.Burger{
+	display: none;
+}
+.Menu > p:hover{
+	/*transition: all 0.2s linear 0s;*/
+	border-bottom: 2px solid rgba(244, 208, 89, 1);
+}
+.Catalogue{
+	height: 125px;
+	width: 125px;
+	min-width: 100px;
+	background: #F4D059;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	z-index: 999;
+	top: 25px;
+	flex-wrap: wrap;
+}
+.Catalogue > p{
+	max-width: 87px;
+	display: block;
+	margin: 0 0;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 17px;
+}
+.Catalogue > p span{
+	font-family: LatoRegular;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 17px;
+}
+.Logo{
+	height: 50.88525390625px;
+	min-width: 204.157958984375px;
+
+	
+}
+@media only screen and (max-width: 950px) {
+	.Wrapper {
+		padding-right: calc(30px + 30 * 100vw / 900);
+		padding-left: calc(25px + 25 * 100vw / 900);
+	}
+	.Container{
+		width: 98%;
+	}
+	.Menu > p{
+		font-size: calc(12px + 3.5 * 100vw / 950);
+		/*font-size: 13px;*/
+		/*line-height: 16px;*/
+	}
+	.Logo{
+		min-width: 160px;
+		width:  calc(106px + 90 * 100vw / 950);
+	}
+	.Catalogue > p{
+		font-size: calc(12px + 3 * 100vw / 950);
+	}
+}
+@media only screen and (max-width: 700px) {
+	.Menu{
+		display: none;
+	}
+	.Catalogue{
+		max-width: 100px;
+	}
+	.Burger{
+		height: 14.6px;
+		width: 23.2px;
+		display: block;
+		margin: 0 10px 0 160px;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.Logo{
+		min-width: 106px;
+		width:  calc(106px + 70 * 100vw / 580);
+	}
+	.Container{
+		height: calc(41px + 31 * 100vw / 580);
+	}
+	.Wrapper{
+		/*border:2px solid orangered;*/
+		height: calc(41px + 31 * 100vw / 580);
+	}
+	.Catalogue{
+		display: flex;
+		position: absolute;
+		left: 0;
+		/*top: 74px;*/
+		top:calc(41px + 31 * 100vw / 580);
+		min-width: 100%;
+		height: 27px;
+		align-items: center;
+		justify-content: center;
+	}
+	.Catalogue > p{
+		max-width: 100%;
+		font-family: LatoRegular;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 16px;
+	}
+	.Catalogue > p:after{
+		margin-left: 7.32px;
+		content: url("imgs/Arrrow.svg");
+	}
+	.Catalogue > p span{
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.Catalogue > p span:after {
+		content: " TRIDENT";
+	}
+	.Burger{
+		margin: 0 0;
+	}
+}
+@media only screen and (max-width: 480px){
+	.Wrapper{
+		padding-right: 5px;
+		padding-left: 5px;
+		height: calc(41px + 10 * 100vw / 430);
+	}
+	.Container{
+		padding-right: 20px;
+		height: calc(41px + 10 * 100vw / 430);
+	}
+	.Logo{
+		height: 30px;
+		width:  calc(106px + 30 * 100vw / 580);
+	}
+	.Catalogue{
+		top:calc(41px + 10 * 100vw / 430);
+	}
+}

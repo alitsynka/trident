@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'LatoRegular';
+	src: url("../fonts/Lato-Regular.ttf");
+}
+
+.Wrapper {
+	/*background: #ca67e0;*/
+	/*height: 100vh;*/
+	width: 100%;
+	box-sizing: border-box;
+	/*padding: 0 110px 0 100px;*/
+	/*padding: 0 100px 0 90px;*/
+	padding: 0 90px 0 80px;
+	/*border: 3px dashed green;*/
+	
+}
+.Container {
+	box-sizing: border-box;
+	max-width: 1270px;
+	/*max-width: 1230px;*/
+	margin: 0 auto;
+	/*border: 3px solid rebeccapurple;*/
+	box-sizing: border-box;
+}
+
+.Image{
+	height: 575px;
+	position: relative;
+}
+.mySwiper .swiper-button-prev:after {
+	content: url("./imgs/Arrow.svg");
+}
+.swiper-slide img {
+	object-fit: fill;
+}
+.Image2 > p{
+	height: 111px;
+	max-width: 460px;
+	font-family: LatoRegular;
+	font-size: 37px;
+	font-weight: 500;
+	line-height: 37px;
+	color: #FFFFFF;
+	position: relative;
+	z-index: 9999;
+	text-align: left;
+	left:33.48px;
+	top:344.88px
+	
+}
+.Image2{
+	height: 575px;
+	position: absolute;
+	top:0;
+	/*left:20px;*/
+	width: 97.3%;
+	/*width: 100%;*/
+	z-index: 999;
+	background: url("./imgs/Rectangle3254.png") 0 0/ 100% 100% no-repeat;
+}
+.Button {
+	height: 66.6px;
+	width: 207px;
+	background-color: #00204A;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin: 0 0 0 1.4%;
+}
+.Button > p {
+	color: #FFFFFF;
+	font-family: LatoRegular;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: left;
+	margin: 0 6.47px 0 0;
+}
+
+@media only screen and (max-width: 950px) {
+	.Wrapper {
+		padding-right: calc(30px + 30 * 100vw / 900);
+		padding-left: calc(25px + 25 * 100vw / 900);
+	}
+	.Image{
+		height: calc(212px + 325 * 100vw / 900);
+	}
+	.Image2{
+		height: calc(212px + 325 * 100vw / 900);
+	}
+}
+@media only screen and (max-width: 700px) {
+	.Wrapper{
+		padding-right: calc(20px + 10 * 100vw / 700);
+		padding-left: calc(20px + 10 * 100vw / 700);
+	}
+}
+@media only screen and (max-width: 580px) {
+	.Image, .Image2{
+		height: calc(212px + 250 * 100vw / 580);
+	}
+	
+	.Image2{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 470px){
+	.Image,.Image2{
+		height: calc(212px + 150 * 100vw / 580);
+	}
+	.Image2{
+		display: none;
+	}
+	.Container{
+		position: relative;
+		top:20px;
+	}
+	.Wrapper{
+		padding: 0  calc(1px + 1 * 100vw / 470);;
+	}
+	.Button {
+		height: 66.6px;
+		width: 207px;
+		margin: 0 0 0 0;
+	}
+}
+@media only screen and (max-width: 380px){
+	.Wrapper{
+		padding: 0 0;
+	}
+	.Image{
+		width: 100%;
+		height: calc(212px + 10 * 100vw / 380);
+	}
+}

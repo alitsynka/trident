@@ -11,7 +11,7 @@
 .Wrapper {
 	/*height: 1260px;*/
 	width: 100%;
-	border: 3px dashed rgba(236, 18, 178, 0.97);
+	/*border: 3px dashed rgba(236, 18, 178, 0.97);*/
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -24,7 +24,7 @@
 	width: 100%;
 	max-width: 1230px;
 	padding: 0 15px;
-	border: 2px dashed coral;
+	/*border: 2px dashed coral;*/
 	color: #00204A;
 	box-sizing: border-box;
 	margin-top: 85px;
@@ -88,7 +88,7 @@
 .OrderCatalogWrapper > img {
 	height: 338px;
 	max-width: 725px;
-	border: 2px solid crimson;
+	/*border: 2px solid crimson;*/
 }
 
 .Im {

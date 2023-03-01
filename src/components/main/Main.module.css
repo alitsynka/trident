@@ -33,30 +33,32 @@
 .swiper-slide img {
 	object-fit: fill;
 }
+
+.Image2{
+	height: 575px;
+	position: absolute;
+	top:0;
+	width: 97.3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	z-index: 999;
+	background: url("./imgs/Rectangle3254.png") 0 0/ 100% 100% no-repeat;
+}
 .Image2 > p{
 	height: 111px;
 	max-width: 460px;
 	font-family: LatoRegular;
-	font-size: 37px;
+	/*font-size: 37px;*/
+	font-size: calc(20px + 17 * 100vw / 1440);;
 	font-weight: 500;
 	line-height: 37px;
 	color: #FFFFFF;
 	position: relative;
 	z-index: 9999;
+	margin: 0 0 7% 33.48px ;
 	text-align: left;
-	left:33.48px;
-	top:344.88px
-	
-}
-.Image2{
-	height: 575px;
-	position: absolute;
-	top:0;
-	/*left:20px;*/
-	width: 97.3%;
-	/*width: 100%;*/
-	z-index: 999;
-	background: url("./imgs/Rectangle3254.png") 0 0/ 100% 100% no-repeat;
 }
 .Button {
 	height: 66.6px;
@@ -77,7 +79,11 @@
 	text-align: left;
 	margin: 0 6.47px 0 0;
 }
-
+@media only screen and (min-width: 1450px) {
+	.Image2 > p{
+		font-size: 37px;
+	}
+}
 @media only screen and (max-width: 950px) {
 	.Wrapper {
 		padding-right: calc(30px + 30 * 100vw / 900);
@@ -96,11 +102,13 @@
 		padding-left: calc(20px + 10 * 100vw / 700);
 	}
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 600px) {
 	.Image, .Image2{
 		height: calc(212px + 250 * 100vw / 580);
 	}
-	
+	.Button{
+		margin: 0 0;
+	}
 	.Image2{
 		width: 100%;
 	}

@@ -54,7 +54,6 @@
 }
 @media only screen and (max-width: 600px){
 	.mySwiper > .swiper-button-prev {
-		left:-10px;
 		content: url("../src/components/main/imgs/LittleArrowPrev.svg");
 	}
 	.mySwiper .swiper-button-next:after{

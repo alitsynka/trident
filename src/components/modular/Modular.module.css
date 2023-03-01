@@ -260,13 +260,13 @@
 
 @media only screen and (min-width: 1450px) {
 	.Common1 > p {
-		color: deeppink;
+		/*color: deeppink;*/
 		font-size: 36px;
 		line-height: 45px;
 	}
 	
 	.InBlockInviting > p:first-child {
-		color: deeppink;
+		/*color: deeppink;*/
 		font-size: 46px;
 		line-height: 45px;
 		

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trident/static/css/main.fbdd1343.css",
+    "main.css": "/trident/static/css/main.e7782bd0.css",
     "main.js": "/trident/static/js/main.a7f30de0.js",
     "static/js/787.28cb0dcd.chunk.js": "/trident/static/js/787.28cb0dcd.chunk.js",
     "static/media/image4.png": "/trident/static/media/image4.95975cf4b7daa973ba53.png",
@@ -35,12 +35,12 @@
     "static/media/LittleArrowPrev.svg": "/trident/static/media/LittleArrowPrev.e9255765b6b195cb309c.svg",
     "static/media/Burger.svg": "/trident/static/media/Burger.95af437b4da1882b2d45b367939042b9.svg",
     "static/media/LittleArrow.svg": "/trident/static/media/LittleArrow.1867248d53393935317d.svg",
-    "main.fbdd1343.css.map": "/trident/static/css/main.fbdd1343.css.map",
+    "main.e7782bd0.css.map": "/trident/static/css/main.e7782bd0.css.map",
     "main.a7f30de0.js.map": "/trident/static/js/main.a7f30de0.js.map",
     "787.28cb0dcd.chunk.js.map": "/trident/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbdd1343.css",
+    "static/css/main.e7782bd0.css",
     "static/js/main.a7f30de0.js"
   ]
 }

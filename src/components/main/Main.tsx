@@ -38,6 +38,9 @@ export const Main = () => {
                     <SwiperSlide>
                         <img src={img5} className={s.Image}/>
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={img5} className={s.Image}/>
+                    </SwiperSlide>
                 </Swiper>
                     {/*</>*/}
                 <div className={s.Button}>
